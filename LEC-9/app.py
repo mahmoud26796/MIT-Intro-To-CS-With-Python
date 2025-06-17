@@ -37,4 +37,17 @@ def char_counts(s):
     return (v_counter, c_counter)
 
 
-print(char_counts('Sara'))
+# print(char_counts('Sara'))
+
+
+def sum_prod(L):
+    sum = 0
+    prod = 1
+    for i in L:
+        sum += i
+        prod *= i
+
+    return (sum, prod)
+
+
+# print(sum_prod([1, 2, 3, 4, 5]))
